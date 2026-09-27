@@ -21,11 +21,12 @@ RUN pip install --no-cache-dir --upgrade pip && \
 COPY app/ ./app/
 COPY data/ ./data/
 COPY docs/ ./docs/
+COPY frontend/ ./frontend/
 
 # Set environment variables
 ENV PYTHONUNBUFFERED=1
-ENV PORT=8000
+ENV PORT=8080
 
-EXPOSE 8000
+EXPOSE 8080
 
-CMD ["uvicorn", "app.api.main:app", "--host", "0.0.0.0", "--port", "8000"]
+CMD ["sh", "-c", "uvicorn app.api.main:app --host 0.0.0.0 --port ${PORT:-8080}"]

@@ -1,4 +1,26 @@
-"""Deterministic Fraud Risk Engine"""
+"""Deterministic Fraud Risk Engine
+=================================
+Implements non-generative, mathematical corporate card fraud risk scoring.
+
+Mathematical Risk Scoring Model:
+--------------------------------
+Total Risk Score (S) is bounded in [0.0, 100.0] and computed as:
+  S = min(100.0, Sum( W_i * MetricRatio_i ))
+
+Where Rule Weights (W_i):
+  - Amount Anomaly: W_1 = min(30.0, 25.0 * (TxAmount / SingleLimit))
+  - High-Risk MCC: W_2 = 25.0
+  - Cross-Border Geo Jump: W_3 = 20.0
+  - Velocity Spike (>=3 tx/hr): W_4 = 15.0
+  - Unapproved Preferred Vendor: W_5 = 10.0
+
+Governance Tiers & Human-In-The-Loop (HITL) Gates:
+---------------------------------------------------
+  - [ 0.0 - 29.9 ]: LOW Risk      -> CLEAR (Auto-Approve)
+  - [ 30.0 - 59.9 ]: MEDIUM Risk   -> MONITOR (Log to Audit Trail)
+  - [ 60.0 - 84.9 ]: HIGH Risk     -> ESCALATE (Requires Human Analyst Review)
+  - [ 85.0 - 100.0]: CRITICAL Risk -> BLOCK_PENDING_APPROVAL (Requires HITL Authorization for BLOCK)
+"""
 import logging
 from typing import Dict, Any, List, Tuple
 from app.models.schemas import RiskLevel, DecisionType, RiskAssessment, FraudSignal
@@ -7,6 +29,8 @@ from app.decision_engine.rules import ALL_RULES, RULE_AMOUNT_ANOMALY, RULE_HIGH_
 logger = logging.getLogger(__name__)
 
 class DeterministicDecisionEngine:
+    """Enterprise Fraud Engine evaluating versioned deterministic rules to guarantee non-generative financial safety."""
+
     def __init__(self, rule_version: str = "v1.2.0"):
         self.rule_version = rule_version
 
@@ -26,7 +50,7 @@ class DeterministicDecisionEngine:
         amount = tx.get("amount", 0.0)
         single_limit = emp.get("single_tx_limit", 5000.0) if emp else 5000.0
         
-        # Rule 1: Amount Anomaly
+        # Rule 1: Amount Anomaly (Dynamic proportional weight)
         if amount > single_limit:
             score_impact = min(30.0, RULE_AMOUNT_ANOMALY.weight * (amount / single_limit))
             total_score += score_impact
@@ -93,10 +117,10 @@ class DeterministicDecisionEngine:
                 raw_metrics={"is_approved_vendor": False}
             ))
 
-        # Cap score at 100
+        # Cap final score at 100.0
         final_score = min(100.0, round(total_score, 1))
 
-        # Determine Risk Level Tier
+        # Determine Risk Level Tier and Human Approval Policy
         if final_score < 30.0:
             risk_level = RiskLevel.LOW
             decision = DecisionType.CLEAR

@@ -59,9 +59,20 @@ async def add_correlation_and_timing(request: Request, call_next):
     response.headers["X-Process-Time-Ms"] = f"{process_time_ms:.2f}"
     return response
 
+@app.get("/", response_class=JSONResponse)
+@app.get("/health")
 @app.get("/v1/health")
 async def health_check():
-    return {"status": "HEALTHY", "environment": settings.ENVIRONMENT, "version": "1.0.0"}
+    return {"status": "HEALTHY", "platform": "CARDGUARD AI", "environment": settings.ENVIRONMENT, "version": "1.0.0"}
+
+@app.get("/dashboard")
+async def get_dashboard():
+    from fastapi.responses import FileResponse
+    import os
+    frontend_path = os.path.join(os.path.dirname(__file__), "../../frontend/index.html")
+    if os.path.exists(frontend_path):
+        return FileResponse(frontend_path, media_type="text/html")
+    return {"status": "ERROR", "message": "Dashboard UI file not found"}
 
 @app.get("/v1/readiness")
 async def readiness_check():

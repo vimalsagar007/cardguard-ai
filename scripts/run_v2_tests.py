@@ -8,10 +8,22 @@ import unittest
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
 
 from app.services.document_ai_service import document_ai_service
+from app.services.xgboost_service import xgboost_service
 from app.rag.advanced_rag import advanced_rag_engine
 from app.decision_engine.engine import decision_engine
 
 class TestCardGuardV2(unittest.IsolatedAsyncioTestCase):
+
+    async def test_xgboost_fraud_service(self):
+        pred = xgboost_service.predict_fraud_probability(
+            tx={"amount": 4500.0, "is_international": True},
+            emp={"single_tx_limit": 2000.0},
+            merch={"is_high_risk_mcc": True, "is_approved_vendor": False},
+            velocity_count=4
+        )
+        self.assertTrue(pred.is_anomaly)
+        self.assertGreater(pred.fraud_probability, 0.80)
+        self.assertIn("amount_ratio", pred.feature_importances)
 
     async def test_document_ai_receipt_basic(self):
         sample_text = b"RECEIPT: Paris Luxury Electronics\nTotal: $450.00\nDate: 2026-09-26"

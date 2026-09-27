@@ -5,6 +5,7 @@ from app.mcp.case_mcp import update_case_status_tool
 from app.mcp.decision_mcp import execute_card_block_action_tool
 from app.mcp.document_mcp import process_expense_receipt_tool
 from app.mcp.vertex_rag_mcp import search_vertex_policy_datastore_tool, advanced_rag_policy_query_tool
+from app.mcp.ml_mcp import evaluate_xgboost_fraud_score_tool
 
 ALL_MCP_TOOLS = [
     get_employee_profile_tool,
@@ -14,7 +15,8 @@ ALL_MCP_TOOLS = [
     execute_card_block_action_tool,
     process_expense_receipt_tool,
     search_vertex_policy_datastore_tool,
-    advanced_rag_policy_query_tool
+    advanced_rag_policy_query_tool,
+    evaluate_xgboost_fraud_score_tool
 ]
 
 __all__ = [
@@ -26,5 +28,6 @@ __all__ = [
     "process_expense_receipt_tool",
     "search_vertex_policy_datastore_tool",
     "advanced_rag_policy_query_tool",
+    "evaluate_xgboost_fraud_score_tool",
     "ALL_MCP_TOOLS"
 ]

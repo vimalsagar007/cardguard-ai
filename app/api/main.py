@@ -16,6 +16,7 @@ from app.agents.supervisor_agent import supervisor_agent
 from app.services.bigquery_service import bq_service
 from app.services.document_ai_service import document_ai_service
 from app.services.vertex_search_service import vertex_search_service
+from app.services.xgboost_service import xgboost_service
 from app.rag.advanced_rag import advanced_rag_engine
 from app.pipeline.ingestion_pipeline import ingestion_pipeline, DocumentIngestionRequest
 from app.mcp.decision_mcp import execute_card_block_action_tool
@@ -65,6 +66,14 @@ class SearchQueryPayload(BaseModel):
 class RAGQueryPayload(BaseModel):
     query: str
     top_k: Optional[int] = 4
+
+class XGBoostPredictPayload(BaseModel):
+    amount: float = 4500.00
+    single_tx_limit: float = 2000.00
+    velocity_count: int = 4
+    is_international: bool = True
+    is_high_risk_mcc: bool = True
+    is_approved_vendor: bool = False
 
 @app.middleware("http")
 async def add_correlation_and_timing(request: Request, call_next):
@@ -169,6 +178,21 @@ async def advanced_rag_query_endpoint(payload: RAGQueryPayload):
     METRICS["vertex_search_queries"] += 1
     res = await advanced_rag_engine.execute_advanced_rag(query=payload.query, top_k=payload.top_k or 4)
     return res.model_dump()
+
+# XGBoost Fraud Score ML Endpoint
+@app.post("/v1/ml/xgboost/predict")
+async def xgboost_predict_endpoint(payload: XGBoostPredictPayload):
+    tx = {"amount": payload.amount, "is_international": payload.is_international}
+    emp = {"single_tx_limit": payload.single_tx_limit}
+    merch = {"is_high_risk_mcc": payload.is_high_risk_mcc, "is_approved_vendor": payload.is_approved_vendor}
+    
+    pred = xgboost_service.predict_fraud_probability(
+        tx=tx,
+        emp=emp,
+        merch=merch,
+        velocity_count=payload.velocity_count
+    )
+    return pred.model_dump()
 
 # Production Ingestion Pipeline Endpoint
 @app.post("/v1/pipeline/ingest")

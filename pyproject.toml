@@ -16,7 +16,7 @@ dependencies = [
     "google-cloud-bigquery",
     "google-cloud-pubsub",
     "google-cloud-storage",
-    "google-cloud-secretmanager",
+    "google-cloud-secret-manager",
     "google-cloud-logging",
     "google-cloud-trace",
     "google-cloud-monitoring",

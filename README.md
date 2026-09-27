@@ -1,7 +1,6 @@
 # CARDGUARD AI: Enterprise Corporate Card Fraud Investigation & Decision Intelligence Platform
 
 CardGuard AI is an enterprise-grade reference architecture for real-time corporate card fraud investigation, evidence-backed multi-agent decision intelligence, and automated compliance policy verification. Built natively on Google Cloud and Gemini AI technologies, CardGuard AI combines autonomous agent collaboration with deterministic decision rules and human-in-the-loop (HITL) approval controls.
-
 ---
 
 ## 🌟 Key Architecture & Capabilities

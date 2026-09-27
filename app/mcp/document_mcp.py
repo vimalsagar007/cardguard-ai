@@ -2,13 +2,13 @@
 import json
 from typing import Dict, Any, Optional
 
-from app.mcp import mcp_tool
+from app.mcp.base import mcp_tool, RiskClassification
 from app.services.document_ai_service import document_ai_service
 
 @mcp_tool(
     name="process_expense_receipt_tool",
     description="Processes raw receipt or invoice document bytes using GCP Document AI. Extracts vendor name, itemized line items, tax, tip, and detects invoice-card discrepancy.",
-    risk_level="READ_ONLY"
+    risk_classification=RiskClassification.READ_ONLY
 )
 async def process_expense_receipt_tool(
     receipt_bytes_hex: str,

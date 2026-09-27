@@ -6,7 +6,7 @@ import logging
 from typing import Dict, Any
 
 from app.mcp.vertex_rag_mcp import advanced_rag_policy_query_tool, search_vertex_policy_datastore_tool
-from app.mcp.policy_mcp import search_policy_knowledge_vector_tool
+from app.mcp.policy_mcp import retrieve_policy_clauses_tool
 
 logger = logging.getLogger("cardguard.agent.policy")
 

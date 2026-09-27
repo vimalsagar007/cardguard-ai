@@ -1,0 +1,19 @@
+# Corporate Card Usage Policy (Version 2026.1)
+Effective Date: January 1, 2026
+Document ID: POL-CORP-CARD-2026
+
+1. Purpose and Scope
+This policy governs the issuance and usage of corporate credit cards issued to employees of Example Enterprise Inc.
+
+2. Permissible Expenses
+2.1 Corporate cards must strictly be used for legitimate business expenses, including travel, business dining, software subscriptions, and authorized client entertainment.
+2.2 Personal expenses of any kind are strictly prohibited on corporate cards.
+
+3. Transaction Limits and Approvals
+3.1 Single Transaction Limit: Standard employees have a single transaction limit of $5,000 USD. Department heads have a $15,000 USD limit. Executive committee members have a $50,000 USD limit.
+3.2 Any single expense exceeding the assigned limit requires prior written pre-approval from the Department Finance Director.
+3.3 Splitting transactions to circumvent single transaction limits is a severe violation resulting in card suspension.
+
+4. High-Risk Merchant Categories
+4.1 Corporate cards are restricted from being used at Gambling & Casino merchants (MCC 7995), Cryptocurrency & Wire Transfers (MCC 6051), and Adult Entertainment.
+4.2 Purchases at Jewelry Stores (MCC 5944) exceeding $1,000 USD require prior pre-authorization.

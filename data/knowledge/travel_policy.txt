@@ -1,0 +1,15 @@
+# Global Business Travel Policy (Version 2026.2)
+Effective Date: February 15, 2026
+Document ID: POL-TRAVEL-2026
+
+1. Air Travel Guidelines
+1.1 All domestic and international flights must be booked through the approved corporate travel portal.
+1.2 Economy class is mandatory for domestic flights under 5 hours. Premium Economy or Business Class is permitted for international flights over 8 hours with VP approval.
+
+2. Hotel & Lodging
+2.1 Maximum allowable daily lodging rate is $350 USD for tier-1 cities (New York, London, Tokyo, San Francisco) and $250 USD for all other locations.
+2.2 Expenses exceeding lodging ceilings require exception authorization.
+
+3. Meal Allowances & Dining
+3.1 Daily meal allowance (Per Diem) is $100 USD in tier-1 cities and $75 USD elsewhere.
+3.2 Group business dining over $500 USD must list all employee and client attendees.

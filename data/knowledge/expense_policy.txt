@@ -1,0 +1,10 @@
+# Employee Expense Reimbursement Policy (Version 2025.4)
+Effective Date: October 1, 2025
+Document ID: POL-EXP-2025
+
+1. Receipt Requirements
+1.1 Itemized receipts are mandatory for all card charges over $25 USD.
+1.2 Receipts must show date, merchant name, individual line items, tax, and tip.
+
+2. Submission Timeline
+2.1 All corporate card transactions must be reconciled and submitted within 15 calendar days of the statement period end date.

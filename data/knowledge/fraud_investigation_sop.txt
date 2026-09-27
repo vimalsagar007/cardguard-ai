@@ -1,0 +1,10 @@
+# Standard Operating Procedure: Corporate Card Fraud Investigation (SOP-808)
+Effective Date: January 1, 2026
+Document ID: SOP-FRAUD-808
+
+1. Overview
+This SOP defines the multi-agent investigation workflow for corporate card anomalies.
+
+2. Triaging Anomaly Signals
+2.1 When velocity, amount, or geographic jump signals fire, the Supervisor Agent must delegate tasks to Fraud, Policy, Merchant, Employee, and Case sub-agents.
+2.2 Every claim generated in an investigation report must cite specific policy clauses or transaction log records.

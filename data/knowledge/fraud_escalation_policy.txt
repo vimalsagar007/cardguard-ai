@@ -1,0 +1,9 @@
+# Fraud Escalation & Human-In-The-Loop Approval Policy
+Effective Date: January 1, 2026
+Document ID: POL-ESCALATE-2026
+
+1. Risk Score Thresholds
+1.1 Risk Score < 30.0: CLEAR. Transaction cleared automatically.
+1.2 30.0 <= Risk Score < 60.0: MONITOR. Transaction flagged for post-clearing audit.
+1.3 60.0 <= Risk Score < 85.0: ESCALATE. Assigned to human analyst for review.
+1.4 Risk Score >= 85.0 or Policy Violation: BLOCK_PENDING_APPROVAL. Card block pending explicit human approval.

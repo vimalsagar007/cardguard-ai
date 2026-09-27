@@ -1,0 +1,7 @@
+# Merchant Risk & Vendor Approval Policy (Version 2026.1)
+Effective Date: January 10, 2026
+Document ID: POL-MERCH-2026
+
+1. High-Risk Merchants
+1.1 Merchants with chargeback rates exceeding 2.0% or risk scores above 75.0 are classified as High-Risk Merchants.
+1.2 Transactions at High-Risk Merchants require multi-agent fraud investigation and automated risk scoring.

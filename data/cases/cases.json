@@ -1,0 +1,2402 @@
+[
+  {
+    "case_id": "CASE-00001",
+    "transaction_id": "TXN-00000030",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-08T19:25:09.393731",
+    "updated_at": "2026-09-08T19:25:09.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 84.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $127863.24 at Royal Tech.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T19:25:09.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T19:25:09.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00002",
+    "transaction_id": "TXN-00000060",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-14T14:33:19.393731",
+    "updated_at": "2026-09-14T14:33:19.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 73.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $19562.17 at Vanguard Outlet.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-14T14:33:19.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-14T14:33:19.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00003",
+    "transaction_id": "TXN-00000090",
+    "status": "CLOSED",
+    "created_at": "2026-09-25T15:22:17.393731",
+    "updated_at": "2026-09-25T15:22:17.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 83.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $17475.53 at Vanguard Tech.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-25T15:22:17.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-25T15:22:17.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00004",
+    "transaction_id": "TXN-00000120",
+    "status": "CLOSED",
+    "created_at": "2026-09-09T13:01:10.393731",
+    "updated_at": "2026-09-09T13:01:10.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 66.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $9697.56 at City Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-09T13:01:10.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-09T13:01:10.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00005",
+    "transaction_id": "TXN-00000150",
+    "status": "CLOSED",
+    "created_at": "2026-09-04T16:24:10.393731",
+    "updated_at": "2026-09-04T16:24:10.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 85.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $46332.16 at Prime Services.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T16:24:10.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-04T16:24:10.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00006",
+    "transaction_id": "TXN-00000180",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-11T16:34:09.393731",
+    "updated_at": "2026-09-11T16:34:09.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 67.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $6356.21 at Metro Services.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-11T16:34:09.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-11T16:34:09.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00007",
+    "transaction_id": "TXN-00000210",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-08-31T08:38:26.393731",
+    "updated_at": "2026-08-31T08:38:26.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 72.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $42625.15 at Summit Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-08-31T08:38:26.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-31T08:38:26.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00008",
+    "transaction_id": "TXN-00000240",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-04T06:45:58.393731",
+    "updated_at": "2026-09-04T06:45:58.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 87.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $6075.32 at Prime Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T06:45:58.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-04T06:45:58.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00009",
+    "transaction_id": "TXN-00000270",
+    "status": "CLOSED",
+    "created_at": "2026-09-02T07:42:46.393731",
+    "updated_at": "2026-09-02T07:42:46.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 73.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12267.8 at City Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-02T07:42:46.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-02T07:42:46.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00010",
+    "transaction_id": "TXN-00000300",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-18T15:19:36.393731",
+    "updated_at": "2026-09-18T15:19:36.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 83.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14302.65 at Prime Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-18T15:19:36.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-18T15:19:36.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00011",
+    "transaction_id": "TXN-00000330",
+    "status": "CLOSED",
+    "created_at": "2026-09-11T13:02:20.393731",
+    "updated_at": "2026-09-11T13:02:20.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 88.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $16522.9 at Prime Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-11T13:02:20.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-11T13:02:20.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00012",
+    "transaction_id": "TXN-00000360",
+    "status": "CLOSED",
+    "created_at": "2026-09-18T10:07:32.393731",
+    "updated_at": "2026-09-18T10:07:32.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 90.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $35315.54 at City Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-18T10:07:32.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-18T10:07:32.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00013",
+    "transaction_id": "TXN-00000390",
+    "status": "CLOSED",
+    "created_at": "2026-09-08T09:34:21.393731",
+    "updated_at": "2026-09-08T09:34:21.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 77.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $19523.15 at Metro Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T09:34:21.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T09:34:21.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00014",
+    "transaction_id": "TXN-00000420",
+    "status": "CLOSED",
+    "created_at": "2026-09-02T21:44:08.393731",
+    "updated_at": "2026-09-02T21:44:08.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 83.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $197583.37 at Horizon Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-02T21:44:08.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-02T21:44:08.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00015",
+    "transaction_id": "TXN-00000450",
+    "status": "CLOSED",
+    "created_at": "2026-09-17T14:54:25.393731",
+    "updated_at": "2026-09-17T14:54:25.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 79.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $49263.82 at City Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-17T14:54:25.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-17T14:54:25.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00016",
+    "transaction_id": "TXN-00000480",
+    "status": "OPEN",
+    "created_at": "2026-09-09T03:00:36.393731",
+    "updated_at": "2026-09-09T03:00:36.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 70.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $10208.09 at City Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-09T03:00:36.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-09T03:00:36.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00017",
+    "transaction_id": "TXN-00000510",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-04T21:09:27.393731",
+    "updated_at": "2026-09-04T21:09:27.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 92.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $86838.03 at Apex Tech.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T21:09:27.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-04T21:09:27.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00018",
+    "transaction_id": "TXN-00000540",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-06T03:59:52.393731",
+    "updated_at": "2026-09-06T03:59:52.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 80.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $27921.81 at Vanguard Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-06T03:59:52.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-06T03:59:52.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00019",
+    "transaction_id": "TXN-00000570",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-08-30T15:17:18.393731",
+    "updated_at": "2026-08-30T15:17:18.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 96.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $48664.66 at Vanguard Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-08-30T15:17:18.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-30T15:17:18.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00020",
+    "transaction_id": "TXN-00000600",
+    "status": "CLOSED",
+    "created_at": "2026-09-06T01:51:56.393731",
+    "updated_at": "2026-09-06T01:51:56.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 78.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $161978.92 at Royal Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-06T01:51:56.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-06T01:51:56.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00021",
+    "transaction_id": "TXN-00000630",
+    "status": "OPEN",
+    "created_at": "2026-09-23T02:31:05.393731",
+    "updated_at": "2026-09-23T02:31:05.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 82.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $44861.97 at Global Holdings.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-23T02:31:05.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-23T02:31:05.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00022",
+    "transaction_id": "TXN-00000660",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-07T16:39:04.393731",
+    "updated_at": "2026-09-07T16:39:04.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 92.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $8817.82 at Summit Holdings.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T16:39:04.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T16:39:04.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00023",
+    "transaction_id": "TXN-00000690",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-20T23:52:10.393731",
+    "updated_at": "2026-09-20T23:52:10.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 92.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $114071.61 at Global Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-20T23:52:10.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-20T23:52:10.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00024",
+    "transaction_id": "TXN-00000720",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-26T18:44:15.393731",
+    "updated_at": "2026-09-26T18:44:15.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 78.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $9298.55 at Summit Group.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-26T18:44:15.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-26T18:44:15.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00025",
+    "transaction_id": "TXN-00000750",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-22T21:09:28.393731",
+    "updated_at": "2026-09-22T21:09:28.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 86.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $6601.79 at City Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-22T21:09:28.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-22T21:09:28.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00026",
+    "transaction_id": "TXN-00000780",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-10T04:08:29.393731",
+    "updated_at": "2026-09-10T04:08:29.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 76.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $48906.62 at Vanguard Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-10T04:08:29.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-10T04:08:29.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00027",
+    "transaction_id": "TXN-00000810",
+    "status": "OPEN",
+    "created_at": "2026-09-05T23:14:19.393731",
+    "updated_at": "2026-09-05T23:14:19.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 95.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14225.83 at Prime Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-05T23:14:19.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-05T23:14:19.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00028",
+    "transaction_id": "TXN-00000840",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-17T06:02:26.393731",
+    "updated_at": "2026-09-17T06:02:26.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 66.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $43136.07 at Horizon Express.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-17T06:02:26.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-17T06:02:26.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00029",
+    "transaction_id": "TXN-00000870",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-12T13:38:20.393731",
+    "updated_at": "2026-09-12T13:38:20.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 82.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $15955.65 at Apex Group.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T13:38:20.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T13:38:20.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00030",
+    "transaction_id": "TXN-00000900",
+    "status": "CLOSED",
+    "created_at": "2026-09-26T22:17:35.393731",
+    "updated_at": "2026-09-26T22:17:35.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 90.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $40217.47 at City Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-26T22:17:35.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-26T22:17:35.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00031",
+    "transaction_id": "TXN-00000930",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-07T07:59:50.393731",
+    "updated_at": "2026-09-07T07:59:50.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 86.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12846.0 at Royal Outlet.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T07:59:50.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T07:59:50.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00032",
+    "transaction_id": "TXN-00000960",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-03T04:44:03.393731",
+    "updated_at": "2026-09-03T04:44:03.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 67.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $9760.51 at City Holdings.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-03T04:44:03.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-03T04:44:03.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00033",
+    "transaction_id": "TXN-00000990",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-05T23:38:39.393731",
+    "updated_at": "2026-09-05T23:38:39.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 67.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $17647.52 at Summit Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-05T23:38:39.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-05T23:38:39.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00034",
+    "transaction_id": "TXN-00001020",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-17T21:12:31.393731",
+    "updated_at": "2026-09-17T21:12:31.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 65.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $19355.39 at Vanguard Services.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-17T21:12:31.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-17T21:12:31.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00035",
+    "transaction_id": "TXN-00001050",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-16T20:28:04.393731",
+    "updated_at": "2026-09-16T20:28:04.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 80.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $91778.42 at Metro Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-16T20:28:04.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-16T20:28:04.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00036",
+    "transaction_id": "TXN-00001080",
+    "status": "OPEN",
+    "created_at": "2026-09-19T15:20:07.393731",
+    "updated_at": "2026-09-19T15:20:07.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 96.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $43521.76 at Prime Outlet.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-19T15:20:07.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-19T15:20:07.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00037",
+    "transaction_id": "TXN-00001110",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-03T09:06:11.393731",
+    "updated_at": "2026-09-03T09:06:11.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 66.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $109464.12 at Apex Services.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-03T09:06:11.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-03T09:06:11.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00038",
+    "transaction_id": "TXN-00001140",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-21T21:42:46.393731",
+    "updated_at": "2026-09-21T21:42:46.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 90.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $17022.59 at Starlight Holdings.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-21T21:42:46.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-21T21:42:46.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00039",
+    "transaction_id": "TXN-00001170",
+    "status": "CLOSED",
+    "created_at": "2026-09-12T15:41:02.393731",
+    "updated_at": "2026-09-12T15:41:02.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 71.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $17280.4 at Metro Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T15:41:02.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T15:41:02.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00040",
+    "transaction_id": "TXN-00001200",
+    "status": "CLOSED",
+    "created_at": "2026-09-03T07:03:10.393731",
+    "updated_at": "2026-09-03T07:03:10.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 69.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $47783.11 at City Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-03T07:03:10.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-03T07:03:10.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00041",
+    "transaction_id": "TXN-00001230",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-14T21:06:44.393731",
+    "updated_at": "2026-09-14T21:06:44.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 88.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $35909.1 at City Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-14T21:06:44.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-14T21:06:44.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00042",
+    "transaction_id": "TXN-00001260",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-25T02:28:29.393731",
+    "updated_at": "2026-09-25T02:28:29.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 80.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12757.96 at Metro Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-25T02:28:29.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-25T02:28:29.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00043",
+    "transaction_id": "TXN-00001290",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-27T06:56:28.393731",
+    "updated_at": "2026-09-27T06:56:28.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 95.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $38634.14 at Metro Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-27T06:56:28.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-27T06:56:28.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00044",
+    "transaction_id": "TXN-00001320",
+    "status": "OPEN",
+    "created_at": "2026-09-05T21:25:38.393731",
+    "updated_at": "2026-09-05T21:25:38.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 77.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12652.43 at Horizon Express.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-05T21:25:38.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-05T21:25:38.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00045",
+    "transaction_id": "TXN-00001350",
+    "status": "OPEN",
+    "created_at": "2026-09-12T06:05:32.393731",
+    "updated_at": "2026-09-12T06:05:32.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 95.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $29009.16 at Royal Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T06:05:32.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T06:05:32.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00046",
+    "transaction_id": "TXN-00001380",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-27T01:34:04.393731",
+    "updated_at": "2026-09-27T01:34:04.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 76.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $29900.7 at Summit Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-27T01:34:04.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-27T01:34:04.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00047",
+    "transaction_id": "TXN-00001410",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-15T18:40:03.393731",
+    "updated_at": "2026-09-15T18:40:03.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 72.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14215.42 at Vanguard Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-15T18:40:03.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-15T18:40:03.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00048",
+    "transaction_id": "TXN-00001440",
+    "status": "OPEN",
+    "created_at": "2026-09-25T06:27:14.393731",
+    "updated_at": "2026-09-25T06:27:14.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 85.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $51713.88 at Prime Mart.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-25T06:27:14.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-25T06:27:14.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00049",
+    "transaction_id": "TXN-00001470",
+    "status": "CLOSED",
+    "created_at": "2026-09-23T22:43:09.393731",
+    "updated_at": "2026-09-23T22:43:09.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 91.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $18743.65 at Metro Holdings.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-23T22:43:09.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-23T22:43:09.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00050",
+    "transaction_id": "TXN-00001500",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-01T11:11:35.393731",
+    "updated_at": "2026-09-01T11:11:35.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 97.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $52641.45 at Summit Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-01T11:11:35.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-01T11:11:35.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00051",
+    "transaction_id": "TXN-00001530",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-12T04:01:41.393731",
+    "updated_at": "2026-09-12T04:01:41.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 72.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $8079.41 at City Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T04:01:41.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T04:01:41.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00052",
+    "transaction_id": "TXN-00001560",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-19T07:50:13.393731",
+    "updated_at": "2026-09-19T07:50:13.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 81.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $7969.14 at Global Services.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-19T07:50:13.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-19T07:50:13.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00053",
+    "transaction_id": "TXN-00001590",
+    "status": "CLOSED",
+    "created_at": "2026-09-15T19:08:42.393731",
+    "updated_at": "2026-09-15T19:08:42.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 68.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $24974.02 at City Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-15T19:08:42.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-15T19:08:42.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00054",
+    "transaction_id": "TXN-00001620",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-22T01:11:37.393731",
+    "updated_at": "2026-09-22T01:11:37.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 85.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12745.6 at Starlight Boutique.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-22T01:11:37.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-22T01:11:37.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00055",
+    "transaction_id": "TXN-00001650",
+    "status": "CLOSED",
+    "created_at": "2026-09-18T12:51:49.393731",
+    "updated_at": "2026-09-18T12:51:49.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 76.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $15997.43 at Summit Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-18T12:51:49.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-18T12:51:49.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00056",
+    "transaction_id": "TXN-00001680",
+    "status": "CLOSED",
+    "created_at": "2026-09-09T12:30:44.393731",
+    "updated_at": "2026-09-09T12:30:44.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 82.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $11616.62 at Horizon Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-09T12:30:44.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-09T12:30:44.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00057",
+    "transaction_id": "TXN-00001710",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-08T21:13:40.393731",
+    "updated_at": "2026-09-08T21:13:40.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 79.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $29170.78 at Horizon Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T21:13:40.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T21:13:40.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00058",
+    "transaction_id": "TXN-00001740",
+    "status": "OPEN",
+    "created_at": "2026-09-18T23:59:41.393731",
+    "updated_at": "2026-09-18T23:59:41.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 91.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $42333.82 at Metro Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-18T23:59:41.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-18T23:59:41.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00059",
+    "transaction_id": "TXN-00001770",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-07T20:24:09.393731",
+    "updated_at": "2026-09-07T20:24:09.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 65.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $24970.31 at City Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T20:24:09.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T20:24:09.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00060",
+    "transaction_id": "TXN-00001800",
+    "status": "CLOSED",
+    "created_at": "2026-08-31T05:57:39.393731",
+    "updated_at": "2026-08-31T05:57:39.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 89.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12651.92 at Starlight Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-08-31T05:57:39.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-31T05:57:39.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00061",
+    "transaction_id": "TXN-00001830",
+    "status": "CLOSED",
+    "created_at": "2026-09-06T11:20:35.393731",
+    "updated_at": "2026-09-06T11:20:35.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 67.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $18961.72 at Prime Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-06T11:20:35.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-06T11:20:35.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00062",
+    "transaction_id": "TXN-00001860",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-21T05:20:54.393731",
+    "updated_at": "2026-09-21T05:20:54.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 73.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $139016.36 at City Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-21T05:20:54.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-21T05:20:54.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00063",
+    "transaction_id": "TXN-00001890",
+    "status": "OPEN",
+    "created_at": "2026-09-11T02:04:21.393731",
+    "updated_at": "2026-09-11T02:04:21.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 95.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $44370.47 at Summit Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-11T02:04:21.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-11T02:04:21.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00064",
+    "transaction_id": "TXN-00001920",
+    "status": "OPEN",
+    "created_at": "2026-09-06T02:53:29.393731",
+    "updated_at": "2026-09-06T02:53:29.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 96.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $121253.12 at Summit Boutique.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-06T02:53:29.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-06T02:53:29.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00065",
+    "transaction_id": "TXN-00001950",
+    "status": "OPEN",
+    "created_at": "2026-09-27T07:13:14.393731",
+    "updated_at": "2026-09-27T07:13:14.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 66.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $57149.93 at Starlight Holdings.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-27T07:13:14.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-27T07:13:14.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00066",
+    "transaction_id": "TXN-00001980",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-04T12:18:37.393731",
+    "updated_at": "2026-09-04T12:18:37.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 66.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $6953.35 at City Outlet.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T12:18:37.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-04T12:18:37.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00067",
+    "transaction_id": "TXN-00002010",
+    "status": "OPEN",
+    "created_at": "2026-09-08T11:44:20.393731",
+    "updated_at": "2026-09-08T11:44:20.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 83.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $25608.03 at Royal Services.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T11:44:20.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T11:44:20.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00068",
+    "transaction_id": "TXN-00002040",
+    "status": "OPEN",
+    "created_at": "2026-09-19T19:17:13.393731",
+    "updated_at": "2026-09-19T19:17:13.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 65.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $8609.77 at Starlight Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-19T19:17:13.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-19T19:17:13.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00069",
+    "transaction_id": "TXN-00002070",
+    "status": "OPEN",
+    "created_at": "2026-08-30T13:11:47.393731",
+    "updated_at": "2026-08-30T13:11:47.393731",
+    "assigned_reviewer": "analyst_7@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 82.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $179259.68 at Global Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-08-30T13:11:47.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-30T13:11:47.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00070",
+    "transaction_id": "TXN-00002100",
+    "status": "CLOSED",
+    "created_at": "2026-09-13T17:15:01.393731",
+    "updated_at": "2026-09-13T17:15:01.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 91.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $13724.89 at City Boutique.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-13T17:15:01.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-13T17:15:01.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00071",
+    "transaction_id": "TXN-00002130",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-14T19:57:37.393731",
+    "updated_at": "2026-09-14T19:57:37.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 87.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $34376.86 at Starlight Tech.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-14T19:57:37.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-14T19:57:37.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00072",
+    "transaction_id": "TXN-00002160",
+    "status": "OPEN",
+    "created_at": "2026-08-29T19:45:37.393731",
+    "updated_at": "2026-08-29T19:45:37.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 93.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $135295.23 at Vanguard Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-08-29T19:45:37.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-29T19:45:37.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00073",
+    "transaction_id": "TXN-00002190",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-22T00:37:34.393731",
+    "updated_at": "2026-09-22T00:37:34.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 81.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $130237.49 at Starlight Mart.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-22T00:37:34.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-22T00:37:34.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00074",
+    "transaction_id": "TXN-00002220",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-07T09:55:16.393731",
+    "updated_at": "2026-09-07T09:55:16.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 71.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $15801.51 at Vanguard Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T09:55:16.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T09:55:16.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00075",
+    "transaction_id": "TXN-00002250",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-12T16:25:36.393731",
+    "updated_at": "2026-09-12T16:25:36.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 96.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $85154.16 at Starlight Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T16:25:36.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T16:25:36.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00076",
+    "transaction_id": "TXN-00002280",
+    "status": "CLOSED",
+    "created_at": "2026-09-21T15:34:02.393731",
+    "updated_at": "2026-09-21T15:34:02.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 71.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14581.04 at Apex Express.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-21T15:34:02.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-21T15:34:02.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00077",
+    "transaction_id": "TXN-00002310",
+    "status": "OPEN",
+    "created_at": "2026-09-08T16:05:26.393731",
+    "updated_at": "2026-09-08T16:05:26.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 86.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14872.41 at Prime Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T16:05:26.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T16:05:26.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00078",
+    "transaction_id": "TXN-00002340",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-05T01:28:00.393731",
+    "updated_at": "2026-09-05T01:28:00.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 75.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $9210.49 at Metro Mart.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-05T01:28:00.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-05T01:28:00.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00079",
+    "transaction_id": "TXN-00002370",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-02T15:40:48.393731",
+    "updated_at": "2026-09-02T15:40:48.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 92.3,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $25617.89 at Horizon Tech.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-02T15:40:48.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-02T15:40:48.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00080",
+    "transaction_id": "TXN-00002400",
+    "status": "OPEN",
+    "created_at": "2026-09-07T02:10:17.393731",
+    "updated_at": "2026-09-07T02:10:17.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 79.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $37830.11 at Starlight Mart.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T02:10:17.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T02:10:17.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00081",
+    "transaction_id": "TXN-00002430",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-01T14:14:52.393731",
+    "updated_at": "2026-09-01T14:14:52.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 77.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $13468.76 at Starlight Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-01T14:14:52.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-01T14:14:52.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00082",
+    "transaction_id": "TXN-00002460",
+    "status": "OPEN",
+    "created_at": "2026-09-09T22:16:39.393731",
+    "updated_at": "2026-09-09T22:16:39.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 76.4,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $12824.34 at Metro Tech.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-09T22:16:39.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-09T22:16:39.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00083",
+    "transaction_id": "TXN-00002490",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-07T18:26:58.393731",
+    "updated_at": "2026-09-07T18:26:58.393731",
+    "assigned_reviewer": "analyst_1@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 81.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $11659.47 at Apex Holdings.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-07T18:26:58.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-07T18:26:58.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00084",
+    "transaction_id": "TXN-00002520",
+    "status": "OPEN",
+    "created_at": "2026-09-08T14:48:50.393731",
+    "updated_at": "2026-09-08T14:48:50.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 73.2,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $8411.79 at Metro Resort.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-08T14:48:50.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-08T14:48:50.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00085",
+    "transaction_id": "TXN-00002550",
+    "status": "CLOSED",
+    "created_at": "2026-09-19T14:23:58.393731",
+    "updated_at": "2026-09-19T14:23:58.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 78.8,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $54559.06 at Horizon Club.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-19T14:23:58.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-19T14:23:58.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00086",
+    "transaction_id": "TXN-00002580",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-25T23:22:05.393731",
+    "updated_at": "2026-09-25T23:22:05.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 96.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $47357.57 at Apex Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-25T23:22:05.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-25T23:22:05.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00087",
+    "transaction_id": "TXN-00002610",
+    "status": "OPEN",
+    "created_at": "2026-09-13T09:59:10.393731",
+    "updated_at": "2026-09-13T09:59:10.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 92.0,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $59216.03 at Horizon Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-13T09:59:10.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-13T09:59:10.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00088",
+    "transaction_id": "TXN-00002640",
+    "status": "CLOSED",
+    "created_at": "2026-09-02T19:11:36.393731",
+    "updated_at": "2026-09-02T19:11:36.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 91.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $33172.03 at Summit Holdings.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-02T19:11:36.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-02T19:11:36.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00089",
+    "transaction_id": "TXN-00002670",
+    "status": "CLOSED",
+    "created_at": "2026-09-22T20:09:00.393731",
+    "updated_at": "2026-09-22T20:09:00.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 84.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $39110.71 at Horizon Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-22T20:09:00.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-22T20:09:00.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00090",
+    "transaction_id": "TXN-00002700",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-05T11:44:35.393731",
+    "updated_at": "2026-09-05T11:44:35.393731",
+    "assigned_reviewer": "analyst_2@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 90.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $8650.05 at Prime Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-05T11:44:35.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-05T11:44:35.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00091",
+    "transaction_id": "TXN-00002730",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-17T04:08:15.393731",
+    "updated_at": "2026-09-17T04:08:15.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 94.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $18453.56 at Metro Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-09-17T04:08:15.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-17T04:08:15.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00092",
+    "transaction_id": "TXN-00002760",
+    "status": "CLOSED",
+    "created_at": "2026-08-31T07:21:04.393731",
+    "updated_at": "2026-08-31T07:21:04.393731",
+    "assigned_reviewer": "analyst_10@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 95.1,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $177255.81 at Vanguard Club.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-08-31T07:21:04.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-31T07:21:04.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00093",
+    "transaction_id": "TXN-00002790",
+    "status": "IN_INVESTIGATION",
+    "created_at": "2026-09-23T08:37:25.393731",
+    "updated_at": "2026-09-23T08:37:25.393731",
+    "assigned_reviewer": "analyst_3@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 83.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $14177.24 at Global Outlet.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-23T08:37:25.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-23T08:37:25.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00094",
+    "transaction_id": "TXN-00002820",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-06T04:57:37.393731",
+    "updated_at": "2026-09-06T04:57:37.393731",
+    "assigned_reviewer": "analyst_6@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 85.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $156810.11 at Prime Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-06T04:57:37.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-06T04:57:37.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00095",
+    "transaction_id": "TXN-00002850",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-08-31T01:34:59.393731",
+    "updated_at": "2026-08-31T01:34:59.393731",
+    "assigned_reviewer": "analyst_4@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 69.5,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $52340.89 at Prime Mart.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-08-31T01:34:59.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-31T01:34:59.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00096",
+    "transaction_id": "TXN-00002880",
+    "status": "CLOSED",
+    "created_at": "2026-09-12T20:12:50.393731",
+    "updated_at": "2026-09-12T20:12:50.393731",
+    "assigned_reviewer": "analyst_5@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 72.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $44111.31 at Vanguard Mart.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T20:12:50.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T20:12:50.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00097",
+    "transaction_id": "TXN-00002910",
+    "status": "PENDING_APPROVAL",
+    "created_at": "2026-09-04T11:33:14.393731",
+    "updated_at": "2026-09-04T11:33:14.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 93.9,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $29390.7 at Vanguard Resort.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-04T11:33:14.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-04T11:33:14.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00098",
+    "transaction_id": "TXN-00002940",
+    "status": "CLOSED",
+    "created_at": "2026-09-14T20:32:15.393731",
+    "updated_at": "2026-09-14T20:32:15.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 70.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $158023.15 at Metro Club.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-14T20:32:15.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-14T20:32:15.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00099",
+    "transaction_id": "TXN-00002970",
+    "status": "CLOSED",
+    "created_at": "2026-08-28T23:27:40.393731",
+    "updated_at": "2026-08-28T23:27:40.393731",
+    "assigned_reviewer": "analyst_8@corp-example.com",
+    "risk_level": "HIGH",
+    "risk_score": 73.7,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $6609.25 at Apex Boutique.",
+    "decision": "BLOCK_PENDING_APPROVAL",
+    "timeline": [
+      {
+        "timestamp": "2026-08-28T23:27:40.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-08-28T23:27:40.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  },
+  {
+    "case_id": "CASE-00100",
+    "transaction_id": "TXN-00003000",
+    "status": "OPEN",
+    "created_at": "2026-09-12T00:09:35.393731",
+    "updated_at": "2026-09-12T00:09:35.393731",
+    "assigned_reviewer": "analyst_9@corp-example.com",
+    "risk_level": "CRITICAL",
+    "risk_score": 86.6,
+    "investigation_summary": "Synthetic fraud investigation for high amount transaction $9352.41 at Prime Express.",
+    "decision": "ESCALATE",
+    "timeline": [
+      {
+        "timestamp": "2026-09-12T00:09:35.393731",
+        "event": "Real-time anomaly detected by CardGuard AI",
+        "actor": "SYSTEM"
+      },
+      {
+        "timestamp": "2026-09-12T00:09:35.393731",
+        "event": "Investigation case created automatically",
+        "actor": "case_agent"
+      }
+    ]
+  }
+]

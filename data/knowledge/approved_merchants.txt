@@ -1,0 +1,6 @@
+# Approved Corporate Vendor & Merchant Directory
+Document ID: DIR-APPROVED-MERCH-2026
+
+Approved Airline Vendors: Delta Air Lines, United Airlines, British Airways, Lufthansa, Singapore Airlines.
+Approved Hotel Vendors: Marriott, Hilton, Hyatt, InterContinental, Accor.
+Approved Tech Vendors: AWS, Google Cloud, Microsoft, Apple Store, CDW, SHI.

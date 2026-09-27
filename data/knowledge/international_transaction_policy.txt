@@ -1,0 +1,7 @@
+# International & Cross-Border Card Usage Policy
+Effective Date: March 1, 2026
+Document ID: POL-INTL-2026
+
+1. Cross-Border Controls
+1.1 International transactions conducted in countries outside the employee's assigned home region must be accompanied by an active Travel Request Notification in the system.
+1.2 Unannounced cross-border transactions over $1,000 USD conducted within 2 hours of a home-country transaction trigger automated geographic velocity anomaly alerts.

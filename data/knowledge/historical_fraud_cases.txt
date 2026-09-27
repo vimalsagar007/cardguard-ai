@@ -1,0 +1,8 @@
+# Historical Fraud Patterns & Case Studies (2025 Archive)
+Document ID: ARCHIVE-FRAUD-2025
+
+Case CS-2025-01: Split Transaction Evasion
+Employee attempted to purchase $12,000 software license by running four $3,000 charges within 10 minutes at the same vendor to bypass the $5,000 single transaction limit.
+
+Case CS-2025-02: Geographic Impossible Velocity
+Card used at gas station in Chicago at 14:00, and 45 minutes later used at high-end luxury retail in Paris at 14:45. Confirmed stolen card clone.

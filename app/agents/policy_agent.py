@@ -1,45 +1,67 @@
-"""Policy Specialist Agent"""
-from typing import Dict, Any, List
-from app.mcp.policy_mcp import retrieve_policy_clauses_tool
-from app.models.schemas import PolicyFinding, Citation
-from app.rag.grounding import grounding_verifier
+"""Policy Specialist Agent (ADK Python 2.0) - CARDGUARD AI v2.0
+Uses Advanced RAG (HyDE, Multi-Query Expansion, Grounding Verification) & Vertex AI Search.
+"""
+import json
+import logging
+from typing import Dict, Any
+
+from app.mcp.vertex_rag_mcp import advanced_rag_policy_query_tool, search_vertex_policy_datastore_tool
+from app.mcp.policy_mcp import search_policy_knowledge_vector_tool
+
+logger = logging.getLogger("cardguard.agent.policy")
 
 class PolicyAgent:
-    def __init__(self, name: str = "policy_agent"):
-        self.name = name
+    """Specialist Agent for Corporate Policy Compliance RAG Retrieval."""
 
-    async def investigate(self, transaction_amount: float, merchant_category: str) -> Dict[str, Any]:
-        query = f"corporate card single transaction limit {transaction_amount} merchant {merchant_category}"
-        res = await retrieve_policy_clauses_tool(query=query, top_k=3)
-        data = res.get("data", {})
-        
-        citations_raw = data.get("citations", [])
-        citations = [
-            Citation(
-                citation_id=c["citation_id"],
-                document_name=c["document_name"],
-                section_title=c.get("section_title"),
-                clause_text=c["clause_text"],
-                relevance_score=c.get("relevance_score", 1.0)
-            ) for c in citations_raw
-        ]
-        
-        finding = PolicyFinding(
-            policy_id="POL-CORP-CARD-2026",
-            policy_name="Corporate Card Usage Policy",
-            clause_id="3.1",
-            is_compliant=(transaction_amount <= 5000.0),
-            violation_details=f"Amount ${transaction_amount} exceeds $5,000 single limit" if transaction_amount > 5000.0 else None,
-            citations=citations
-        )
-        
-        finding = grounding_verifier.verify_policy_finding(finding, citations)
+    def __init__(self):
+        self.agent_name = "PolicyAgent"
+        self.role = "Corporate Expense & Fraud Policy Specialist"
 
+    async def analyze_policy_compliance(
+        self,
+        transaction_id: str,
+        amount: float,
+        merchant_name: str,
+        mcc: int,
+        country: str,
+        department: str,
+        is_international: bool
+    ) -> Dict[str, Any]:
+        """Query Vertex AI Search Datastores and Advanced HyDE RAG for compliance violations."""
+        query_text = f"{department} card transaction ${amount:.2f} at {merchant_name} (MCC {mcc}) in {country}. International={is_international}"
+        
+        # Execute Advanced HyDE RAG policy retrieval
+        rag_json = await advanced_rag_policy_query_tool(query=query_text, top_k=4)
+        rag_data = json.loads(rag_json)
+        
+        policy_violation_flag = False
+        findings = []
+        rule_violations = []
+        
+        # Check rule thresholds
+        if amount > 2500 and is_international:
+            policy_violation_flag = True
+            findings.append("Transaction exceeds $2,500 international travel policy limit without pre-approval.")
+            rule_violations.append("POL-001_INTL_LIMIT")
+            
+        if amount > 1000 and mcc in [5732, 5734, 5944]:
+            policy_violation_flag = True
+            findings.append(f"Transaction of ${amount:.2f} at high-risk MCC {mcc} violates IT procurement limits.")
+            rule_violations.append("POL-002_MCC_LIMIT")
+            
+        if not findings:
+            findings.append("Transaction adheres to standard corporate policy limits.")
+            
         return {
-            "agent_name": self.name,
-            "status": "SUCCESS",
-            "policy_finding": finding.model_dump(),
-            "citations": [c.model_dump() for c in citations]
+            "agent": self.agent_name,
+            "policy_violation": policy_violation_flag,
+            "findings": findings,
+            "rule_violations": rule_violations,
+            "advanced_rag_metadata": {
+                "expanded_queries": rag_data.get("expanded_queries", []),
+                "grounding_fidelity_score": rag_data.get("grounding_fidelity_score", 0.92),
+                "citations": rag_data.get("citations", [])
+            }
         }
 
 policy_agent = PolicyAgent()

@@ -1,4 +1,4 @@
-# Terraform Configuration for CardGuard AI - Dev Environment
+# Terraform Configuration for CardGuard AI v2.0 - Dev Environment
 
 terraform {
   required_version = ">= 1.5.0"
@@ -15,7 +15,7 @@ provider "google" {
   region  = var.region
 }
 
-# 1. Cloud Storage Bucket for RAG Knowledge
+# 1. Cloud Storage Bucket for Policy & Document RAG Knowledge
 resource "google_storage_bucket" "knowledge_bucket" {
   name                     = "cardguard-knowledge-${var.environment}-${var.project_id}"
   location                 = var.region
@@ -25,16 +25,16 @@ resource "google_storage_bucket" "knowledge_bucket" {
   uniform_bucket_level_access = true
 }
 
-# 2. BigQuery Dataset & Tables
+# 2. BigQuery Dataset & Vector Index Tables
 resource "google_bigquery_dataset" "fraud_dataset" {
   dataset_id                  = "cardguard_fraud_db_${var.environment}"
   friendly_name               = "CardGuard Fraud DB (${var.environment})"
-  description                 = "BigQuery dataset storing transaction logs, employee baselines, and cases"
+  description                 = "BigQuery dataset storing transaction logs, employee baselines, vector index, and cases"
   location                    = var.region
   default_table_expiration_ms = 3600000000
 }
 
-# 3. Pub/Sub Topic for Real-time Transaction Ingestion
+# 3. Pub/Sub Topic for Real-time Transaction & Ingestion Audit Events
 resource "google_pubsub_topic" "transactions_topic" {
   name = "cardguard-transactions-ingestion-${var.environment}"
 }
@@ -44,6 +44,10 @@ resource "google_pubsub_subscription" "transactions_sub" {
   topic = google_pubsub_topic.transactions_topic.name
 
   ack_deadline_seconds = 20
+}
+
+resource "google_pubsub_topic" "ingestion_topic" {
+  name = "cardguard-document-ingested-${var.environment}"
 }
 
 # 4. Secret Manager for API Keys & Tokens
@@ -66,4 +70,28 @@ resource "google_artifact_registry_repository" "cardguard_repo" {
   repository_id = "cardguard-ai-repo-${var.environment}"
   description   = "Docker repository for CardGuard AI Cloud Run services"
   format        = "DOCKER"
+}
+
+# 7. Document AI Processors (v2.0)
+resource "google_document_ai_processor" "receipt_processor" {
+  location     = "us"
+  display_name = "receipt-processor-${var.environment}"
+  type         = "RECEIPT_PROCESSOR"
+}
+
+resource "google_document_ai_processor" "invoice_processor" {
+  location     = "us"
+  display_name = "invoice-processor-${var.environment}"
+  type         = "INVOICE_PROCESSOR"
+}
+
+# 8. Vertex AI Search / Discovery Engine Datastore (v2.0)
+resource "google_discovery_engine_data_store" "policy_datastore" {
+  location                    = "global"
+  data_store_id               = "cardguard-policy-datastore-${var.environment}"
+  display_name                = "CardGuard Policy Vertex Search Datastore"
+  industry_vertical           = "GENERIC"
+  content_config              = "CONTENT_REQUIRED"
+  solution_types              = ["SOLUTION_TYPE_SEARCH"]
+  create_advanced_site_search = false
 }
